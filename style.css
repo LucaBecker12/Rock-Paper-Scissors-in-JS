@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    color: #24272E;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #24272E;
+}
+
+.scoreboard {
+    border: 2px white solid;
+    border-radius: 4px;
+    text-align: center;
+    width: 10vw;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+button {
+    background-color: #24272E;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reset {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background-color: red;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+#user_label {
+    position: absolute;
+    top: 35px;
+    left: -40px;
+}
+
+#computer_label {
+    position: absolute;
+    top: 35px;
+    right: -60px;
+}
+
+.winning-message {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.options {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.option {
+    display: inline-block;
+    border: white solid 4px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    padding: 10px;
+}
